@@ -7,7 +7,7 @@ st.set_page_config(page_title="Leaf AI Pro", page_icon="🍃", layout="centered"
 st.title("🍃 Leaf Classifier Pro")
 st.caption("PyTorch + FastAPI + Streamlit")
 
-API_URL = "http://localhost:8000"
+API_URL = "https://leaf-api-pa2j.onrender.com"
 
 # Check API
 try:
