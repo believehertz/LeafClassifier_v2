@@ -1,5 +1,5 @@
 torch==2.10.0+cpu
-torchvision==0.15.0+cpu
+torchvision==0.25.0+cpu
 fastapi==0.104.1
 uvicorn==0.24.0
 streamlit==1.28.0
