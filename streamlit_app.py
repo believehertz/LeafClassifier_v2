@@ -25,6 +25,7 @@ uploaded = st.file_uploader("Upload image", type=["jpg", "jpeg", "png"])
 if uploaded:
     col1, col2 = st.columns(2)
     with col1:
+        img = Image.open(uploaded)
         st.image(uploaded, use_container_width=True)
     
     if st.button("🔍 Analyze", type="primary"):
